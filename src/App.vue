@@ -1,0 +1,27 @@
+<template>
+  <h1>{{ name }}</h1>
+  <h2>{{ age }}</h2>
+  <button @click="sayname">点击</button>
+</template>
+
+<script>
+
+
+  export default {
+    name: 'App',
+   setup(){
+    let name ='张三'
+    let age = 18
+
+    function sayname() {
+      alert(`我${name},我${age}岁`)
+    }
+
+    return {
+      name,
+      age,
+      sayname
+    }
+   }
+  }
+</script>
