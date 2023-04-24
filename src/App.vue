@@ -6,14 +6,11 @@
 </template>
 
 <script>
-
-
   export default {
     name: 'App',
    setup(){
     let name ='张三'
     let age = 18
-
     function sayname() {
       alert(`我${name},我${age}岁`)
     }
