@@ -10,7 +10,7 @@ import {ref} from 'vue'
   export default {
     name: 'App',
    setup(){
-    let name =ref('张ss')
+    let name =ref('张三')
     let age = ref(18)
     let job = ref({
     })
