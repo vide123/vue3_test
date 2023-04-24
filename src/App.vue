@@ -1,24 +1,28 @@
 <template>
   <h1>{{ name }}</h1>
   <h2>{{ age }}</h2>
-  <button @click="sayname">我是谁！！！！！测试</button>
-  <h1>使用了dev分支</h1>
+  <button @click="changeInfo">我是谁！！！！！测试    </button>
 </template>
 
 <script>
+
+import {ref} from 'vue'
   export default {
     name: 'App',
    setup(){
-    let name ='李四'
-    let age = 18
-    function sayname() {
-      alert(`我${name},我${age}岁`)
-    }
+    let name =ref('张三')
+    let age = ref(18)
+    let job = ref({
+    })
+   function changeInfo(){
+     name.value = "李四"
+     age.value = 48
+   }
 
     return {
       name,
       age,
-      sayname
+      changeInfo
     }
    }
   }
