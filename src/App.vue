@@ -1,7 +1,7 @@
 <template>
   <h1>{{ name }}</h1>
   <h2>{{ age }}</h2>
-  <button @click="sayname">点击</button>
+  <button @click="sayname">我是谁！！！！！</button>
 </template>
 
 <script>
