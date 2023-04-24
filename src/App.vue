@@ -1,8 +1,8 @@
 <template>
   <h1>{{ name }}</h1>
   <h2>{{ age }}</h2>
-  <button @click="sayname">我是谁！！！！！测试    </button>
-  <h1>使用了dev分支   </h1>
+  <button @click="sayname">我是谁！！！！！测试</button>
+  <h1>使用了dev分支</h1>
 </template>
 
 <script>
