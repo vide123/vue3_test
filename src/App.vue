@@ -8,8 +8,8 @@
 <script>
   export default {
     name: 'App',
-   setup(){                                                                                              11111111111111111111111111111111111111111111111111111111111
-    let name ='张三'
+   setup(){
+    let name ='李四'
     let age = 18
     function sayname() {
       alert(`我${name},我${age}岁`)
